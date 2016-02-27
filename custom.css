@@ -18,6 +18,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
 }
 
+h1.light {
+	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
+}
+
+.entry-content {
+
+}
+
+.entry-content > .et_pb_fullwidth_section {
+	border-bottom: 3px solid #71c043;
+}
+
 .header-content h1 {
 	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
 }
@@ -36,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 1em;
 	position: relative;
 }
-	
+
 	.home-products .et_pb_row_2 .et_pb_column:after, .home-products .et_pb_row_3 .et_pb_column:after, .home-products .et_pb_row_4 .et_pb_column:after {
 		top: 0;
 		left: 50%;
