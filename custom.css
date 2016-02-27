@@ -11,7 +11,15 @@ rules. Just write here what you want to change, you don't need to copy all
 your theme's stylesheet content.
 */
 body {
-	font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+	font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
+}
+
+.header-content h1 {
+	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
 }
 
 #top-menu .menu-item-has-children > a:first-child, #et-secondary-nav .menu-item-has-children > a:first-child {
@@ -27,8 +35,9 @@ body {
 	border-top: 6px solid #71c043;
 	padding: 1em;
 	position: relative;
+}
 	
-	&::after {
+	.home-products .et_pb_row_2 .et_pb_column:after, .home-products .et_pb_row_3 .et_pb_column:after, .home-products .et_pb_row_4 .et_pb_column:after {
 		top: 0;
 		left: 50%;
 		border: solid transparent;
@@ -42,5 +51,5 @@ body {
 		border-width: 6px;
 		margin-left: -6px;
 	}
-}
+
 
