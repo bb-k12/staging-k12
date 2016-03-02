@@ -59,7 +59,7 @@ h1.light, h2.light {
 
 /* Navigation */
 
-#top-menu li.current-menu-item > a {
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a {
 	color: #71c043;
 }
 
