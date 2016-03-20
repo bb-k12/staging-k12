@@ -1,16 +1,6 @@
-/*
-Welcome to Custom CSS!
-
-CSS (Cascading Style Sheets) is a kind of code that tells the browser how
-to render a web page. You may delete these comments and get started with
-your customizations.
-
-By default, your stylesheet will be loaded after the theme stylesheets,
-which means that your rules can take precedence and override the theme CSS
-rules. Just write here what you want to change, you don't need to copy all
-your theme's stylesheet content.
-*/
-
+html {
+	font-size: 20px;
+}
 
 body {
 	font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
@@ -26,21 +16,31 @@ h1.light, h2.light {
 	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
 }
 
-.button {
-	color: #ffffff !important;
-    background: #565656;
+h3 {
+	font-size: 
+}
 
-    display: inline-block;
-    padding: 0.3em 1em !important;
+@media only screen and (min-width: 981px) { 
+	h3 {
+		font-size: 1.2em !important;
+	}
+}
+
+.button {
+    background: #565656;
     border-width: 0px !important;
     border-radius: 0px;
+	color: #ffffff !important;
+    display: inline-block;
+    font-size: 0.75em;
     letter-spacing: 0px;
-    font-size: 16px;
+    padding: 0.3em 1em !important;
+    text-transform: uppercase;
 }
 
 .button.green {
-	color: #fff !important;
 	background: #71c043;
+	color: #fff !important;
 }
 
 /* Slideshow and  Banner Areas */
@@ -53,9 +53,33 @@ h1.light, h2.light {
 	border-bottom: 3px solid #71c043;
 }
 
+.header-content {
+	max-width: 650px;
+}
+
 .header-content h1, .et_pb_slide_description h2.et_pb_slide_title {
 	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
 }
+
+	@media screen only and (min-width: 991px) {
+		.header-content h1, .et_pb_slide_description h2.et_pb_slide_title {
+			font-size: 2.5em;
+		}
+	}
+
+/* Top Header */
+
+#top-header {
+	font-size: 0.775rem;
+}
+
+	#top-header .container {
+		font-weight: 400;
+	}
+
+	#top-header .et-social-icons {
+		margin-left: 2em;
+	}
 
 /* Navigation */
 
