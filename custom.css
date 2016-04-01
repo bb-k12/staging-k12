@@ -1,3 +1,16 @@
+@import url("../Divi/style.css");
+/*
+Theme Name: Divi-child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Description: Child theme for the Divi theme
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Template: Divi
+Version: 1.0.0
+*/
+
+
+
 html {
 	font-size: 20px;
 }
@@ -59,6 +72,25 @@ h3 {
 .entry-content > .et_pb_fullwidth_section {
 	border-bottom: 3px solid #71c043;
 }
+
+.et_pb_slider .et_pb_container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	
+	-webkit-box-align: flex-end;
+	-webkit-align-items: flex-end;
+	-moz-box-align: flex-end;
+	-ms-flex-align: flex-end;
+	align-items: flex-end;
+}
+
+	.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
+		margin: 0;
+		padding: 0;
+	}
 
 .header-content {
 	max-width: 650px;
