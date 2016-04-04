@@ -32,7 +32,11 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 			<?php endif; ?>
 
-				
+				<div id="footer-bottom">
+					<div class="container clearfix">
+						<p>&copy; Copyright <?php echo date('Y'); ?> Blackbaud, Inc.</p>
+					</div>	<!-- .container -->
+				</div>
 			</footer> <!-- #main-footer -->
 		</div> <!-- #et-main-area -->
 
