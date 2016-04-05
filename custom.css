@@ -316,7 +316,40 @@ h3 {
 /*Footer styles*/
 #main-footer {
 	background-color: #50535a;
+	font-size: 0.8rem;
 }
+	#main-footer h3 {
+		color: white;
+		font-size: 1em !important;
+		text-transform: uppercase;
+	}
+
+	#main-footer h4 {
+		font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
+		font-size: 1.5em;
+	}
+
+	#main-footer a {
+		color: white;
+	}
+
+	#main-footer a:hover {
+		text-decoration: underline;
+	}
+
+	#footer-widgets .footer-widget .fwidget {
+		margin-bottom: 1.65em !important;
+	}
+
+		@media (min-width: 981px) {
+			#footer-widgets .footer-widget .fwidget {
+				clear: left;
+			}
+		}
+
+	#footer-widgets .footer-widget .fwidget.simple-social-icons {
+		margin-left: -1.3em;
+	}
 
 	#footer-widgets .footer-widget .fwidget.simple-social-icons li:before {
 		content: none;
