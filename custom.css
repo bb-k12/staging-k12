@@ -289,6 +289,46 @@ h3 {
 		font-weight: 700;
 	}
 
+/* About Page */
+
+.by-the-numbers .et_pb_number_counter .percent .percent-value {
+ 	border-bottom: 6px solid #71c043;
+	padding-bottom: 0.25em;
+	position: relative;
+}
+
+	.by-the-numbers .et_pb_number_counter .percent .percent-value:after {
+		bottom: -18px;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(113, 192, 67, 0);
+		border-top-color: #71c043;
+		border-width: 6px;
+		margin-left: -6px;
+	}
+
+.by-the-numbers .et_pb_promo {
+	margin-top: 3em;
+}
+
+	.by-the-numbers .et_pb_promo h2 {
+		text-transform: uppercase;
+	}
+
+.by-the-numbers .et_pb_circle_counter {
+	max-width: 150px;
+	margin-bottom: 4.8% !important;
+}
+
+	.by-the-numbers .et_pb_circle_counter + .et_pb_promo {
+		margin-top: 0;
+	}
+
 /* Products Pages */
 
 .products-ctas .et_pb_row_3 .et_pb_column h3 {
