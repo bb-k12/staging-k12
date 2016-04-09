@@ -204,11 +204,16 @@ h3 {
 		background-color: #50535a
 	}
 
+#et-top-navigation {
+	padding-top: 0;
+}
+
 #top-menu-nav, #top-menu {
 	font-size: 0.775rem; /* 15.5px */
 }
 
 #top-menu > li > a {
+	padding-top: 33px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
