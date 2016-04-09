@@ -194,24 +194,37 @@ h3 {
 
 /* Navigation */
 
+#main-header {
+	background-color: rgba(80,83,90,0.45);
+	-ms-background-blend-mode: multiply;
+	background-blend-mode: multiply;
+}
+	
+	#main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu {
+		background-color: #50535a
+	}
+
 #top-menu-nav, #top-menu {
 	font-size: 0.775rem; /* 15.5px */
 }
 
-#top-menu li a {
-
+#top-menu > li > a {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 	#top-menu li li a {
 		text-transform: none;
 	}
 
-#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a {
-	color: #71c043;
+#top-menu > li.current-menu-ancestor > a, #top-menu > li.current-menu-item > a {
+	background-color: rgba(80,83,90,0.45);
+	-ms-background-blend-mode: multiply;
+	background-blend-mode: multiply;
 }
 
-#top-menu .menu-item-has-children > a:first-child, #et-secondary-nav .menu-item-has-children > a:first-child {
-	padding-right: 0;
+#top-menu > .menu-item-has-children > a:first-child, #et-secondary-nav > .menu-item-has-children > a:first-child {
+	padding-right: 10px;
 }
 
 #top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {
