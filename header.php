@@ -26,8 +26,6 @@
 	<script src="<?php echo esc_url( $template_directory_uri . '/js/html5.js"' ); ?>" type="text/javascript"></script>
 	<![endif]-->
 
-	<script src="<?php echo esc_url( $template_directory_uri . '/js/retina.min.js"' ); ?>" type="text/javascript"></script>
-
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
