@@ -201,7 +201,7 @@ h3 {
 }
 	
 	#main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu {
-		background-color: #50535a
+		background-color: #50535a !important;
 	}
 
 .et_header_style_left #et-top-navigation {
