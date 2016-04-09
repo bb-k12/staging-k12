@@ -146,8 +146,12 @@ h3 {
 	padding: 1.5em 2.2em !important;
 }
 
-.header-content h1, .et_pb_slide_description h2.et_pb_slide_title, .et_pb_slide_content {
+.header-content h1, .et_pb_slide_description h2.et_pb_slide_title {
 	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
+}
+
+.et_pb_slide_content {
+	font-family: "HelveticaNeueW01-47LtCn_692689", Helvetica, Arial, sans-serif;
 }
 
 	@media (min-width: 991px) {
@@ -156,9 +160,9 @@ h3 {
 		}
 	}
 
-	@media only screen and (min-width: 767px)
+	@media only screen and (min-width: 767px) {
 		.et_pb_slide_content, .et_pb_best_value {
-		    font-size: 30px;
+		    font-size: 36px;
 		}
 	}
 
@@ -195,7 +199,7 @@ h3 {
 /* Navigation */
 
 #main-header {
-	background-color: rgba(80,83,90,0.45);
+	background-color: rgba(80,83,90,0.45) !important;
 	-ms-background-blend-mode: multiply;
 	background-blend-mode: multiply;
 }
