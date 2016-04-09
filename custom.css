@@ -204,7 +204,7 @@ h3 {
 		background-color: #50535a
 	}
 
-#et-top-navigation {
+.et_header_style_left #et-top-navigation {
 	padding-top: 0;
 }
 
@@ -223,6 +223,7 @@ h3 {
 	}
 
 #top-menu > li.current-menu-ancestor > a, #top-menu > li.current-menu-item > a {
+	color: white;
 	background-color: rgba(80,83,90,0.45);
 	-ms-background-blend-mode: multiply;
 	background-blend-mode: multiply;
