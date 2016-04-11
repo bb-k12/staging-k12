@@ -323,6 +323,9 @@ $et_top_search {
 
 	.resource-hub hr {
 		margin-left: 0;
+		max-width: 50px;
+		color: white;
+		border-color: white;
 	}
 
 	.resource-hub .et_pb_promo_button {
