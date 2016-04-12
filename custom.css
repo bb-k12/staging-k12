@@ -410,6 +410,7 @@ $et_top_search {
 	.experts strong {
 		font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
 		font-size: 24px;
+		font-weight: normal;
 	}
 
 	.experts .fa {
@@ -418,7 +419,7 @@ $et_top_search {
 	}
 
 	.experts p + p {
-		margin-left: 1.45em;
+		margin-left: 2em;
 	}
 
 /* Products Pages */
