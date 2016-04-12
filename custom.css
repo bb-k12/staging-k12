@@ -403,6 +403,24 @@ $et_top_search {
 		margin-top: 0;
 	}
 
+.experts {
+	font-size: 17.5px;
+}
+	
+	.experts strong {
+		font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
+		font-size: 24px;
+	}
+
+	.experts .fa {
+		color: #73bf44;
+		margin-right: 0.25em;
+	}
+
+	.experts p + p {
+		margin-left: 1.45em;
+	}
+
 /* Products Pages */
 
 .products-ctas .et_pb_row_3 .et_pb_column h3 {
