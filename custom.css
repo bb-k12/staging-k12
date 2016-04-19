@@ -43,6 +43,10 @@ h3 {
 	}
 }
 
+p {
+	padding-bottom: 0.7em !important;
+}
+
 .button {
     background: #565656;
     border-width: 0px !important;
