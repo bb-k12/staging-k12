@@ -486,6 +486,15 @@ p {
 	background-color: #50535a;
 	font-size: 0.8rem;
 }
+	
+	@media (min-width: 1170px) {
+		#main-footer {
+			background-image: url('//k12.bbhqbox.com/wp-content/uploads/2016/04/schoolhouse-icon.png');
+			background-position: right 84%;
+			background-repeat: no-repeat;
+		}
+	}
+
 	#main-footer h3 {
 		color: white;
 		font-size: 1em !important;
