@@ -61,18 +61,31 @@ p {
     text-transform: uppercase;
 }
 
+.button:hover {
+	background: #454545;
+}
+
 .button.green {
 	background: #71c043;
 	color: #fff !important;
 }
 
+.button:hover.green {
+	background: #6EAE48;
+}
+
 	.et_pb_button {
     	font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
 		font-size: 15px;
-		letter-spacing: 1px;
+		letter-spacing: 1px !important;
 	}
 
-	body #page-container et_pb_promo .et_pb_button:hover {
+	.et_pb_button {
+		background: #454545;
+		letter-spacing: 1px !important;
+	}
+
+	body #page-container .et_pb_promo .et_pb_button:hover {
 		letter-spacing: 1px !important;
 	}
 
@@ -363,6 +376,10 @@ p {
 		color: #73bf44 !important;
 	}
 
+	.resource-hub .et_pb_promo_button:hover {
+		background-color: rgba(255,255,255,0.2);
+	}
+
 	.resource-hub .featured-content .et_pb_promo_button {
 		border-color: #ffffff !important;
 		color: #ffffff !important;
@@ -478,7 +495,7 @@ p {
 	}
 
 .products-ctas .et_pb_row_3 .et_pb_column .et_pb_promo {
-	display: flo
+	
 }
 
 .products_feature {
@@ -494,6 +511,10 @@ p {
 
 			.products_feature .hidden_product_cta .et_pb_button {
 				display: none;
+			}
+
+			.products_feature .hidden_product_cta .et_pb_button:hover {				
+				background: #6EAE48;
 			}
 
 		.products_feature .hidden_product_cta:hover {
