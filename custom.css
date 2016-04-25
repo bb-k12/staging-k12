@@ -80,7 +80,7 @@ p {
 		letter-spacing: 1px !important;
 	}
 
-	.et_pb_button {
+	.et_pb_button:hover {
 		background: #454545;
 		letter-spacing: 1px !important;
 	}
