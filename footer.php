@@ -4,7 +4,7 @@
 
 <?php endif; ?>
 
-<div><img style="display:block;" src="//k12.bbhqbox.com/wp-content/uploads/2016/02/spectrum-full-width.png"></div>
+<div><img style="display:block; margin: 0 auto;" src="//k12.bbhqbox.com/wp-content/uploads/2016/02/spectrum-full-width.png"></div>
 
 <?php
 if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
