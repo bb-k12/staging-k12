@@ -231,6 +231,14 @@ a {
 		padding-top: 0.516129em; /* 8px */
 	}
 
+		#top-header .container #et-secondary-menu {
+			float: left;
+		}
+
+		#top-header .container #et-secondary-menu #et-secondary-nav a {
+			font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
+		}
+
 		#top-header .container #et-info {
 			padding-bottom: 0.516129em; /* 8px */
 		}
@@ -404,7 +412,11 @@ a {
 	color: #73bf44;
 }
 
-	.home-testamonial h3 {
+.et_pb_row.testamonial {
+	max-width: 960px;
+}
+
+	.home-testamonial h3, .testamonial h3 {
 		font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
 		text-transform: none;
 		color: #73bf44;
@@ -416,6 +428,15 @@ a {
 		text-transform: uppercase;
 		font-size: 15px;
 		font-weight: 700;
+	}
+
+	.testamonial p {
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	.testamonial p a.button {
+		font-weight: normal;
 	}
 
 /* About Page */

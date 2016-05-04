@@ -60,27 +60,12 @@
 		<div id="top-header"<?php echo $et_top_info_defined ? '' : 'style="display: none;"'; ?>>
 			<div class="container clearfix">
 
-			<?php if ( $et_contact_info_defined ) : ?>
-
-				<div id="et-info">
-				<?php if ( '' !== ( $et_phone_number = et_get_option( 'phone_number' ) ) ) : ?>
-					<span id="et-info-phone"><?php echo et_sanitize_html_input_text( $et_phone_number ); ?></span>
-				<?php endif; ?>
-
-				<?php if ( '' !== ( $et_email = et_get_option( 'header_email' ) ) ) : ?>
-					<a href="<?php echo esc_attr( 'mailto:' . $et_email ); ?>"><span id="et-info-email"><?php echo esc_html( $et_email ); ?></span></a>
-				<?php endif; ?>
-
-				<?php
-				if ( true === $show_header_social_icons ) {
-					get_template_part( 'includes/social_icons', 'header' );
-				} ?>
-				</div> <!-- #et-info -->
-
-			<?php endif; // true === $et_contact_info_defined ?>
-
 				<div id="et-secondary-menu">
 				<?php
+					if ( '' !== $et_secondary_nav ) {
+						echo $et_secondary_nav;
+					}
+
 					if ( ! $et_contact_info_defined && true === $show_header_social_icons ) {
 						get_template_part( 'includes/social_icons', 'header' );
 					} else if ( $et_contact_info_defined && true === $show_header_social_icons ) {
@@ -100,13 +85,28 @@
 						);
 					}
 
-					if ( '' !== $et_secondary_nav ) {
-						echo $et_secondary_nav;
-					}
-
 					et_show_cart_total();
 				?>
 				</div> <!-- #et-secondary-menu -->
+
+			<?php if ( $et_contact_info_defined ) : ?>
+
+				<div id="et-info">
+				<?php if ( '' !== ( $et_phone_number = et_get_option( 'phone_number' ) ) ) : ?>
+					<span id="et-info-phone"><?php echo et_sanitize_html_input_text( $et_phone_number ); ?></span>
+				<?php endif; ?>
+
+				<?php if ( '' !== ( $et_email = et_get_option( 'header_email' ) ) ) : ?>
+					<a href="<?php echo esc_attr( 'mailto:' . $et_email ); ?>"><span id="et-info-email"><?php echo esc_html( $et_email ); ?></span></a>
+				<?php endif; ?>
+
+				<?php
+				if ( true === $show_header_social_icons ) {
+					get_template_part( 'includes/social_icons', 'header' );
+				} ?>
+				</div> <!-- #et-info -->
+
+			<?php endif; // true === $et_contact_info_defined ?>
 
 			</div> <!-- .container -->
 		</div> <!-- #top-header -->

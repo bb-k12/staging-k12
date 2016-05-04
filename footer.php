@@ -47,6 +47,6 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	<?php wp_footer(); ?>
 
 	<?php $template_directory_uri = get_template_directory_uri(); ?>
-	<script src="<?php echo esc_url( $template_directory_uri . '/js/retina.min.js"' ); ?>" type="text/javascript"></script>
+	<script src="/wp-content/themes/Divi-child/js/retina.min.js" type="text/javascript"></script>
 </body>
 </html>
