@@ -69,7 +69,7 @@ a {
 }
 
 .button.green {
-	background: #71c043;
+	background: #71bf43;
 	color: #fff !important;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 .entry-content > .et_pb_fullwidth_section {
-	border-bottom: 5px solid #71c043;
+	border-bottom: 5px solid #71bf43;
 }
 
 .et_pb_slider .et_pb_container, .et_pb_fullwidth_header {
@@ -296,12 +296,12 @@ a {
 	}
 
 	#top-menu li li.current-menu-item a {
-		color: #71c043 !important;
+		color: #71bf43 !important;
 	}
 
 	@media (min-width: 981px) {
 		.et-fixed-header #top-menu li li.current-menu-item a {
-			color: #71c043 !important;
+			color: #71bf43 !important;
 		}
 	}
 
@@ -335,7 +335,7 @@ a {
 
 .home-products .et_pb_row_3 .et_pb_column, .home-products .et_pb_row_4 .et_pb_column {
 	border: 1px solid #a2a4a8;
-	border-top: 6px solid #71c043;
+	border-top: 6px solid #71bf43;
 	padding: 1.5em 0.75em;
 	position: relative;
 }
@@ -350,7 +350,7 @@ a {
 		position: absolute;
 		pointer-events: none;
 		border-color: rgba(113, 192, 67, 0);
-		border-top-color: #71c043;
+		border-top-color: #71bf43;
 		border-width: 9px;
 		margin-left: -9px;
 	}
@@ -362,7 +362,7 @@ a {
 	}
 
 	.resource-hub h2 {
-		color: #73bf44 !important;
+		color: #71bf43 !important;
 		font-size: 16px;
 		text-transform: uppercase;
 		padding-bottom: 24px;
@@ -387,8 +387,8 @@ a {
 
 	.resource-hub .et_pb_promo_button {
 		background-color: transparent;
-		border-color: #73bf44 !important;
-		color: #73bf44 !important;
+		border-color: #71bf43 !important;
+		color: #71bf43 !important;
 	}
 
 	.resource-hub .et_pb_promo_button:hover {
@@ -409,7 +409,7 @@ a {
 
 .et_pb_row.home-testamonial {
 	max-width: 960px;
-	color: #73bf44;
+	color: #71bf43;
 }
 
 .et_pb_row.testamonial {
@@ -419,7 +419,7 @@ a {
 	.home-testamonial h3, .testamonial h3 {
 		font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
 		text-transform: none;
-		color: #73bf44;
+		color: #71bf43;
 		font-size: 30px!important;
 		line-height: 36px;
 	}
@@ -442,7 +442,7 @@ a {
 /* About Page */
 
 .by-the-numbers .et_pb_number_counter .percent .percent-value {
- 	border-bottom: 6px solid #71c043;
+ 	border-bottom: 6px solid #71bf43;
 	padding-bottom: 0.25em;
 	position: relative;
 	color: #565656;
@@ -458,7 +458,7 @@ a {
 		position: absolute;
 		pointer-events: none;
 		border-color: rgba(113, 192, 67, 0);
-		border-top-color: #71c043;
+		border-top-color: #71bf43;
 		border-width: 9px;
 		margin-left: -9px;
 	}
@@ -491,7 +491,7 @@ a {
 	}
 
 	.experts .fa {
-		color: #73bf44;
+		color: #71bf43;
 		margin-right: 0.25em;
 	}
 
@@ -502,7 +502,7 @@ a {
 /* Products Pages */
 
 .products-ctas .et_pb_column h3 {
-	border-bottom: 6px solid #71c043;
+	border-bottom: 6px solid #71bf43;
 	padding-bottom: 0.75em;
 	margin-bottom: 0.75em;
 	position: relative;
@@ -518,7 +518,7 @@ a {
 		position: absolute;
 		pointer-events: none;
 		border-color: rgba(113, 192, 67, 0);
-		border-top-color: #71c043;
+		border-top-color: #71bf43;
 		border-width: 9px;
 		margin-left: -9px;
 	}
@@ -561,7 +561,7 @@ a {
 /* Contact Page */
 
 .contact-ctas .et_pb_column h3 {
-	border-bottom: 6px solid #71c043;
+	border-bottom: 6px solid #71bf43;
 	padding-bottom: 0.75em;
 	margin-bottom: 0.75em;
 	position: relative;
@@ -577,7 +577,7 @@ a {
 		position: absolute;
 		pointer-events: none;
 		border-color: rgba(113, 192, 67, 0);
-		border-top-color: #71c043;
+		border-top-color: #71bf43;
 		border-width: 9px;
 		margin-left: -9px;
 	}
@@ -647,6 +647,6 @@ a {
 	}
 
 	#footer-widgets .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
-		background-color: #73bf44;
+		background-color: #71bf43;
 		background-image: none;
 	}
