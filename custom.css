@@ -184,6 +184,10 @@ a {
 	font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
 }
 
+	.header-content h1, .et_pb_slide_description h2.et_pb_slide_title a {
+		font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif;
+	}
+
 .et_pb_slide_content {
 	font-family: "HelveticaNeueW01-47LtCn_692686", Helvetica, Arial, sans-serif;
 }
