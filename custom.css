@@ -60,6 +60,7 @@ a {
     font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
     font-size: 0.75em;
     letter-spacing: 1px;
+    margin: 5px 0 !important;
     padding: 0.3em 1em !important;
     text-transform: uppercase;
 }
@@ -656,6 +657,10 @@ a {
 	    box-shadow: none;
 	    border: 0;
 	    text-shadow: none;
+	}
+
+	#footer-widgets .mktoForm .mktoRequiredField label.mktoLabel {
+		font-weight: 400;
 	}
 
 	#footer-widgets .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
