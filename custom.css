@@ -650,7 +650,22 @@ a {
 		font-size: 16px!important;
 	}
 
+	#footer-widgets .mktoForm .mktoErrorMsg {
+		background-color: rgb(229, 27, 0);
+	    background-image: none;
+	    box-shadow: none;
+	    border: 0;
+	    text-shadow: none;
+	}
+
 	#footer-widgets .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
 		background-color: #71bf43;
+		border-color: #71bf43;
+		background-image: none;
+	}
+
+	#footer-widgets .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+		background-color: #6eae48;
+		border-color: #6eae48;
 		background-image: none;
 	}
