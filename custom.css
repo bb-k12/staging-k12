@@ -609,20 +609,20 @@ a {
 	}
 
 /* Portfolio Slider */
-.portfolio-slider .et_pb_slider {
+.et_pb_slider.portfolio-slider {
 	overflow: visible;
 }
 
-.portfolio-slider .et_pb_slider .et_pb_container {
+.et_pb_slider.portfolio-slider .et_pb_container {
 
 }
 
-	.portfolio-slider .et_pb_slider .et_pb_slide_description {
+	.et_pb_slider.portfolio-slider .et_pb_slide_description {
 		margin: 0 auto -56px;
 		padding: 0;
 	}
 
-	.portfolio-slider .et_pb_slider .et_pb_slide .et_pb_button {
+	.et_pb_slider.portfolio-slider .et_pb_slide .et_pb_button {
 
 	}
 
