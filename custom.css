@@ -618,8 +618,14 @@ a {
 }
 
 	.et_pb_slider.portfolio-slider .et_pb_slide_description {
-		margin: 0 auto -56px;
+		margin: 35% auto -5%;
 		padding: 0;
+	}
+
+	.et_pb_slider.portfolio-slider .et_pb_slide {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 
 	.et_pb_slider.portfolio-slider .et_pb_slide .et_pb_button {
