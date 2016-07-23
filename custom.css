@@ -15,6 +15,7 @@ html {
 
 body {
 	font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 }
 
 /* Tyopgraphy */
@@ -94,6 +95,15 @@ a {
 
 	body #page-container .et_pb_promo .et_pb_button:hover {
 		letter-spacing: 1px !important;
+	}
+
+	@media (min-width: 981px) {	
+		#main-header .container {
+			width: 100%;
+			max-width: 981px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
 	}
 
 /* Layout style overrides */
@@ -690,8 +700,13 @@ a {
 
 	#footer-widgets .mktoForm div, #footer-widgets .mktoForm span, #footer-widgets .mktoForm label, #footer-widgets .mktoForm p {
 		font-family: "HelveticaNeueW01-57Cn", Helvetica, Arial, sans-serif;
-		text-align: right!important;
 		font-size: 16px!important;
+	}
+
+	@media (min-width: 768px) {
+		#footer-widgets .mktoForm div, #footer-widgets .mktoForm span, #footer-widgets .mktoForm label, #footer-widgets .mktoForm p {
+			text-align: right!important;
+		}
 	}
 
 	#footer-widgets .mktoForm .mktoErrorMsg {
