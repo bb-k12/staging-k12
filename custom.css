@@ -81,6 +81,7 @@ a {
 
 	.et_pb_button {
     	background: #50535a;
+    	border-width: 0px !important;
 		color: #ffffff !important;
     	font-family: "HelveticaNeueW01-77BdCn_692722", Helvetica, Arial, sans-serif;
 		font-size: 15px;
@@ -281,6 +282,10 @@ a {
 
 #logo {
 	max-height: none;
+}
+
+#main-header.et-fixed-header {
+	background-color: rgba(80,83,90,1) !important;
 }
 
 	@media (min-width: 981px) {
@@ -650,7 +655,7 @@ a {
 	
 	@media (min-width: 1170px) {
 		#main-footer {
-			background-image: url('//k12.bbhqbox.com/wp-content/uploads/2016/04/schoolhouse-icon.png');
+			background-image: url('//k12.blackbaud.com/wp-content/uploads/2016/04/schoolhouse-icon.png');
 			background-position: right 84%;
 			background-repeat: no-repeat;
 		}
