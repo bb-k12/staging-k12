@@ -176,7 +176,7 @@ a {
 
 	.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
 		background-color: rgba(0,0,0,0.4);
-		margin: 35% 8% 0;
+		margin: 24em 8% 0;
 		padding: 1.5em 2.3em 0;
 	}
 
@@ -633,7 +633,7 @@ a {
 }
 
 	.et_pb_slider.portfolio-slider .et_pb_slide_description {
-		margin: 35% auto -5%;
+		margin: 24em auto -3em;
 		padding: 0;
 	}
 
